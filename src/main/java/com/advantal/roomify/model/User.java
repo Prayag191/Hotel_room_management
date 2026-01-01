@@ -26,3 +26,4 @@ public class User {
 
     private LocalDateTime createdAt = LocalDateTime.now();
 }
+ 

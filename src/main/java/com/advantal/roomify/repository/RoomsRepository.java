@@ -11,4 +11,7 @@ public interface RoomsRepository extends JpaRepository<Rooms, Integer> {
 	
 	List<Rooms> findByStatus(Integer status);
 
+    List<Rooms> findByStatusNot(Integer status);
+	
+
 }

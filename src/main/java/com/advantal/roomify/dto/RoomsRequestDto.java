@@ -8,7 +8,7 @@ import lombok.Setter;
 public class RoomsRequestDto {
 
     private Integer roomNumber;
-    private Integer pricePerDay;
     private String roomType;
+    private Integer pricePerDay;
 }
 
